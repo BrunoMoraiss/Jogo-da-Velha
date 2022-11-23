@@ -1,0 +1,3 @@
+Criação piloto Jogo da velha 
+
+o exercicio proposto no curso JavaScript FullStack, estou terminando o modo DOM e com isso criando um jogo da velha, esse foi a forma que eu fiz o exercicio, acompanhei a correção vi que existe uma forma com o codigo mais organizado e com uma maior compreensão. Upando esse codigo pois sei da complexidade e foi a forma que eu encontrei de criar, conforme os estudos forem avançando irei recriar o mesmo exercicio de uma forma diferente. 
