@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da velha</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <div id="info-players">
+            <div id="info-player-one">
+                <label for="playerOne">NOME DO PLAYER 1: </label>
+                <input type="text" name="playerOne" id="playerOne">
+            </div>
+            <div id="info-player-two">
+                <label for="playerTwo">NOME DO PLAYER 2: </label>
+                <input type="text" name="playerTwo" id="playerTwo">  
+            </div>
+            <button id="playBtn">Começar</button>
+        </div>
+        <div id="time-player">
+            <h2 id="reference-time">VEZ DO PLAYER</h2>
+            <span id="player"></span>
+        </div>
+    </header>
+    <main class="primary-content">
+        <div class="div-jogo" id="div-jogo0" data-value=""></div>
+        <div class="div-jogo" id="div-jogo1" data-value=""></div>
+        <div class="div-jogo" id="div-jogo2" data-value=""></div>
+        <div class="div-jogo" id="div-jogo3" data-value=""></div>
+        <div class="div-jogo" id="div-jogo4" data-value=""></div>
+        <div class="div-jogo" id="div-jogo5" data-value=""></div>
+        <div class="div-jogo" id="div-jogo6" data-value=""></div>
+        <div class="div-jogo" id="div-jogo7" data-value=""></div>
+        <div class="div-jogo" id="div-jogo8" data-value=""></div>
+    </main>
+</body>
+</html>
