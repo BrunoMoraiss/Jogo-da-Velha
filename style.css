@@ -97,3 +97,49 @@ span {
     justify-content: center;
     font-size: 150PX;
 }
+
+@media(max-width: 1440px){
+    .div-jogo{
+        width: 160px;
+        height: 130px;
+        font-size: 115px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 12px;
+    }
+
+    span {
+        font-size: 35px;
+    }
+
+    #info-players {
+        gap: 40px;
+        font-size: 20px;
+    }
+
+    #info-player-one input{
+        margin-left: 10px;
+        border: 4px solid black;
+        width: 180px;
+        height: 40px;
+        font-size: 25px;
+        padding-left: 3px;
+    }
+    #info-player-two input{
+        margin-left: 10px;
+        border: 4px solid black;
+        width: 180px;
+        height: 40px;
+        font-size: 25px;
+        padding-left: 3px;
+    }
+
+    #time-player h2{
+        font-size: 35px;
+    }
+
+    #playBtn {
+        font-size: 23px;
+    }
+} 
